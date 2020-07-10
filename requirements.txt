@@ -1,0 +1,9 @@
+tensorflow
+keras
+pillow
+numpy
+urllib
+flask
+requests
+flask_restful
+gevent
