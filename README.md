@@ -66,7 +66,7 @@ To consume the Keras REST API:
 
       $ python post_request.py
                             
-- Then you will be asked to enter the image path of the query image you want to classify
+- Then you will be asked to enter the image path of the query image
                                 
        $ python post_request.py
        Enter the image path:
