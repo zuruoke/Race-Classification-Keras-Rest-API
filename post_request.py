@@ -1,5 +1,4 @@
 import requests
-from flask_restful import reqparse
 # initialize the Keras REST API endpoint URL along with the input
 # image path
 IMAGE_PATH = input("Enter the image path:\n")
