@@ -14,10 +14,10 @@ To get more details on how this Race Classification Model was trained, refer to 
 
 # Getting started
 
-I assume you already have numpy, pillow, Keras and a supported backend (tensorflow in this case) installed on your system. From there you need to install Flask, urllib, flask_restful and requests:
+I assume you already have numpy, pillow, Keras and a supported backend (tensorflow in this case) installed on your system. From there you need to install Flask, urllib, and requests:
                 
                 
-    $ pip install flask gevent flask_restful requests
+    $ pip install flask gevent requests
                                     
 
 Next, clone the repo:
