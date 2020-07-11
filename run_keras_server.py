@@ -11,15 +11,11 @@ import time
 import io
 import os
 import numpy as np
-import matplotlib.pyplot as plt
 from tensorflow.keras.layers import Input, Dense, Reshape, Flatten, Dropout
 from tensorflow.keras.layers import LeakyReLU
 from tensorflow.keras.layers import UpSampling2D, Conv2D, Conv2DTranspose
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras.optimizers import Adam
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-# %pylab inline
 import sys
 import urllib
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2
