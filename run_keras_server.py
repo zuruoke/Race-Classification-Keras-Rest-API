@@ -24,10 +24,10 @@ import flask
 from tensorflow.keras.models import model_from_json
 from PIL import Image
 from tensorflow.keras.preprocessing.image import img_to_array
-from flask_ngrok import run_with_ngrok
+#from flask_ngrok import run_with_ngrok
 
 app = flask.Flask(__name__)
-run_with_ngrok(app)
+#run_with_ngrok(app)
 model = None
 
 
@@ -110,4 +110,4 @@ if __name__ == "__main__":
     print(("* Loading Zuruoke model and Flask starting server..."
         "please wait until server has fully started"))
     load_model()
-    app.run()            
+    app.run(port=1000, debug=True)            
